@@ -1,0 +1,77 @@
+/* Custom Styles for Resume Page */
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;  /* Dark gray for body text */
+    background-color: #f9e59b;  /* Calm yellow background */
+    padding: 20px;
+    margin: 0;
+}
+
+/* Navigation Links Styles */
+.navigation a {
+    color: red; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px;
+    padding: 8px 12px; /* Add padding for a button-like effect */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid transparent; /* Transparent border by default */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover and Focus Effects for Links */
+.navigation a:hover, 
+.navigation a:focus {
+    background-color: red /* Change background to blue */
+    color: white; /* Change text color to white */
+    border-color: #0056b3; /* Add a darker blue border on hover */
+}
+
+/* Active link (when clicked) */
+.navigation a:active {
+    background-color: #0056b3; /* Darker blue background when clicked */
+    border-color: #003f8f; /* Even darker border when active */
+}
+
+
+/* Main Content Section */
+.main-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;  /* Darker color for headings */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Specific Section Styles */
+.intro, .doing-section, .feeling-section, .sending-section, .becoming-section, .link-section {
+    margin-bottom: 30px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Back to Top Link */
+.back-to-top a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
+}
